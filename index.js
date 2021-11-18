@@ -5,7 +5,7 @@ function nbx2md (data) {
 
 	const contents = lists.reduce((previousValue, list) => {
 		previousValue.push(`## ${list.title}`);
-		const contents = list.notes.map(({text, raw}) => (raw ? "### " : "") + text);
+		const contents = list.notes.map(({text, raw}) => (raw ? "### " : "") + text.replace(/(?<!  )\n/gm, "  \n"));
 		return previousValue.concat(contents);
 	}, [ title ]);
 
