@@ -1,0 +1,28 @@
+{
+  "name": "nbx2md",
+  "version": "0.1.0",
+  "description": "nullboard to markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nbx2md": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brrd/nbx2md.git"
+  },
+  "keywords": [
+    "nullboard",
+    "markdown",
+    "nbx",
+    "md"
+  ],
+  "author": "brrd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brrd/nbx2md/issues"
+  },
+  "homepage": "https://github.com/brrd/nbx2md#readme"
+}
